@@ -10,4 +10,14 @@ body {
 .icon-style {
   height: 5vh;
   width: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.index-image {
+  width: 75%;
+  height: auto;
+  border-radius: 50%;
 }/*# sourceMappingURL=styles.css.map */

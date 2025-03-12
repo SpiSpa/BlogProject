@@ -8,7 +8,29 @@
     <title>New Post</title>
 </head>
 <body>
+    <div class="container mt-5">
+    Create your new post below!
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" placeholder="Title">
+      </div>
+      <div class="mb-3">
+        <label for="blogEntry" class="form-label">Your Entry</label>
+        <textarea class="form-control" id="blogEntry" rows="3"></textarea>
+      </div>
+      <input class="btn btn-outline-dark" type="submit" value="Post">
+    </div>
+
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+
+        <input type="file" name="userfile">
+
+        <input type="submit" value="Upload">
+
+    </form>
     Here's where we'll put the new post!
+    When the new post button is clicked, a new ejs file is created
+    and the file is linked to the rest of the page in the index.ejs file?
 </body>
 </html>
 
